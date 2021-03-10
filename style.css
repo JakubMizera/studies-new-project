@@ -1,13 +1,38 @@
-body {
-    color: brown;
+#page {
+    margin: auto;
+    max-width: 1000px;
 }
 
-p {
-    background-color: azure;
-    width: 100%;
+header {
+    width: 1000px;
+    height: 200px;
+    background-color: salmon;
 }
 
-div {
-    margin-top: auto;
+.container {
+    display: flex;
+    width: 1000px;
 }
 
+.left {
+    height: 500px;
+    background-color: seagreen;
+    width: 200px;
+}
+
+main {
+    width: 600px;
+    background-color: skyblue;
+}
+
+.right {
+    height: 500px;
+    background-color: royalblue;
+    width: 200px;
+}
+
+footer {
+    background-color: slategray;
+    width: 1000px;
+    height: 200px;
+}
